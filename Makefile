@@ -132,7 +132,6 @@ blog/@%.html: $(TAGFILES) $(addprefix templates/,$(addsuffix .html,header tag_in
 	envsubst < templates/tag_index_footer.html >> $@; \
 	envsubst < templates/footer.html >> $@; \
 
-
 blog/%.html: $(BLOG_SRC)/%.md $(addprefix templates/,$(addsuffix .html,header article_header tag_link_header tag_link tag_link_footer article_footer footer))
 	mkdir -p blog
 	TITLE="$(shell head -n1 $< | sed 's/^# \+//')"; \
