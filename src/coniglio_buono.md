@@ -1,5 +1,7 @@
 # Ricetta Coniglio (buono)
 
+Ricetta coniglio buono della nonna della Marta.
+
 ## Ingredienti
 
 - Coniglio
