@@ -1,3 +1,3 @@
-# Chad minimal view
+# Ricette
 
-Personal website. For recipes go [here](@ricette.html), for articles go [here](@linux.html)
+Una serie di ricette in formato minimale, veloci da caricare e senza stupide pubblicita'
