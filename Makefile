@@ -13,7 +13,7 @@ BLOG_DESCRIPTION ?= blog
 BLOG_URL_ROOT ?= http://localhost/blog
 BLOG_FEED_MAX ?= 20
 BLOG_FEEDS ?= rss atom
-BLOG_SRC ?= articles
+BLOG_SRC ?= src
 
 
 .PHONY: help init build deploy clean taglist
